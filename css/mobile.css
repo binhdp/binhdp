@@ -1,0 +1,262 @@
+@media only screen and (max-width: 767px) {
+  .chandung {
+    display: none;
+  }
+  .section-title{
+    font-size: 2rem;
+  }
+  .font {
+    color: pink;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .nav .nav-sm {
+    padding-bottom: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-sm .row {
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .container-sm {
+    margin-top: 10px;
+  }
+
+/*KINH NGHIEM, HOC VAN, KY NANG,...*/
+  
+#job-info{
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 550px);
+  gap: 20px;
+  width: auto;
+}
+
+.container-content-details {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 25% 75%;
+  border: 1px solid rgb(224, 218, 218);
+}
+.container-content-details div {
+  margin: 0;
+  padding: 0;
+}
+
+.item1.container-content-details {
+  position: relative;
+}
+.item1 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.title {
+  position: absolute;
+  padding-left: 30px;
+  padding-top: 35px;
+}
+.item3 h3 {
+  line-height: 50px;
+}
+.item3 p {
+  line-height: 17px;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: auto;
+}
+
+/*PHAN 4 ICON TRONG MUC SO THICH*/
+.T-circle {
+  height: 110px;
+  width: 60px;
+  justify-content: center;
+  font-weight: bolder;
+  text-align: center;
+}
+.T-circle i {
+  color: #199cdb;
+}
+.T-circle p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+.circle {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  border: 1px solid #199cdb;
+}
+.item3-circle {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 28px;
+  border-style: none;
+}
+.level {
+  background: #199cdb;
+  display: inline-block;
+  height: 5px;
+  margin-right: 15px;
+  width: 50px;
+}
+ul {
+  list-style-type: disc;
+  padding-right: 10px;
+}
+
+/*CHUNG CHI GIAI THUONG*/
+.container-prize {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: auto;
+  margin: auto;
+}
+
+.container-prize-details {
+  /*display: grid;
+  display: flex;*/
+  padding-bottom: 20px;
+  padding-top: 20px;
+  gap: 0;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #d6c08d;
+  
+}
+
+.container-prize-details img{
+  width: 350px;
+}
+
+
+.container-prize .dot{
+  display: none;
+}
+.container-prize-details-content {
+  padding-top: 20px;
+  width: 300px;
+  margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 25px;
+  
+}
+
+#certificate {
+
+  margin-top: 30px;
+  width: 1fr;
+  margin: auto;
+  padding: auto;
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #FFF0F5;
+}
+
+/*PHAN DU AN*/
+#project{
+  margin-top: 30px;
+  width: 1fr;
+  margin: auto;
+  padding: auto;
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.container-project {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  margin: auto;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-project-details img{
+  width:75%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-project-details-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  height: 40px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(245, 224, 224);
+}
+.container-project-details table {
+  bottom: 1px solid black;
+  width: 20rem;
+}
+.project-icon {
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid rgb(245, 224, 224);
+  font-size: 0.7rem;
+}
+
+.container-project-details table{
+  font-size: 0.7rem;
+}
+
+/*Contacs*/
+
+
+#footer{
+  background-color: #FFFFF0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+.contacts p{
+  display: none;
+}
+
+}
